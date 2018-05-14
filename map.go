@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(m)
 
 	for key,val := range m1 {	//利用for-range结构输出key-value
-		fmt.Printf("%s == > %d", key, val)
+		fmt.Printf("%s == > %d  ", key, val)
 	}
 
 }
