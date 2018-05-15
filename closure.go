@@ -14,6 +14,7 @@ func main() {
 //这个函数返回Fibonacci数列的下一个值
 func nextNum() func() int {
 	i,j:=1,1
+	//func这个函数时一个匿名函数，因为没有函数名
 	return func() int {
 		var tmp = i+j
 		i,j = j,tmp
