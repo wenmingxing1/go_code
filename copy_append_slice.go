@@ -16,4 +16,7 @@ func main() {
 	s13 := []int{1,2,3}
 	s13 = append(s13,4,5,6)
 	fmt.Println(s13)
+
+	s1_to = append(s1_to, s1_from...)	//将s1_from追加到s1_to末尾，注意使用...
+	fmt.Println(s1_to)
 }
