@@ -20,7 +20,7 @@
  	fmt.Printf("two1 is: %v\n", two1)
  	fmt.Println("two1 is: ",two1)
  	fmt.Printf("two1 is %T\n", two1)
- 	fmt.Println("two1 is %#v\n", two1)
+ 	fmt.Printf("two1 is %#v\n", two1)
  }
 
  func (tn *TwoInts) String() string {
